@@ -1,5 +1,7 @@
-
 #
+from re import I
+
+
 myList = [ 1, 2,3, 4, 5,6]
 for num in myList:
     print(num)
@@ -36,3 +38,49 @@ elif( n % 5 == 0 ):
 else:
     print(n)
 
+#string
+mystring = "Hello World!"
+for letter in mystring:
+    print(letter)
+
+# string example 2
+    myCountry = "The   Gambia"
+    for city in myCountry:
+        print(city)
+
+# numbers
+tup = (1, 2, 3, 4, 5, 6)
+for item in tup:
+  print(item)
+  
+  
+  #  two ball pairs
+
+  list = [ (1,2), (3,4), (5,6), (7,8) ]
+  len(list)
+  
+  #  Example
+
+  for items in list:
+    print(items)
+    #
+    myList = [(1,2,5), (5,8,4),( 5,4,6)]
+    for a, b, c in myList:
+        print(a,b,c)
+        print(a)
+        print(b)
+        print(c)
+
+#Dictionary in loops
+#Example one  you can use 2 burn package in Dictionary as well to iterate the loop
+
+d = {'k1':1,'k2':2, 'k3':3, 'k4':4 }
+for items in d.items():
+    print(items)
+
+#Example 2
+
+d = {'k1':1,'k2':2, 'k3':3, 'k4':4 }
+for key,value in d.items():
+    print(key)
+    #print(value)
