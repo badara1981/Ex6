@@ -25,3 +25,14 @@ list_sum = 0
 for num in myList:
     list_sum = list_sum + num
     print(list_sum)
+
+for n in range(1,101):
+    if( n % 3 == 0 and  n % 5 == 0):
+        print("Fizz Buzz")
+if( n % 3 == 0):
+        print("Fizz")
+elif( n % 5 == 0 ):  
+        print("Buzz")
+else:
+    print(n)
+
