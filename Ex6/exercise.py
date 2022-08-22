@@ -53,7 +53,8 @@ tup = (1, 2, 3, 4, 5, 6)
 for item in tup:
   print(item)
   
-  
+  #
+
   #  two ball pairs
 
   list = [ (1,2), (3,4), (5,6), (7,8) ]
@@ -84,3 +85,17 @@ d = {'k1':1,'k2':2, 'k3':3, 'k4':4 }
 for key,value in d.items():
     print(key)
     #print(value)
+
+    #
+    d = {'k1':1,'k2':2, 'k3':3, 'k4':4 }
+    for value in d.values():
+        print(value)
+    
+    #WHILE LOOPS
+
+    x = 0
+    while x < 5:
+        print(f'the current value of x is {x}')
+        x += 1
+    else:
+            print("X IS NOT LESS THAN 5")
