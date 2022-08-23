@@ -14,7 +14,7 @@ myList = [ 1, 2,3, 4, 5,6, 7,8, 9, 10]
 for jelly in myList:
     print(jelly)
     print("Hello")
- 
+
  #ex.2
 
 # check for Even
@@ -118,3 +118,20 @@ for key,value in d.items():
                     if letter == "a":
                         continue
                     print(letter)
+                #  Ex 
+    ##x = 0
+    #while  x < 5:
+     
+     #if x == 2:
+        #break  
+        
+        #print(x)
+        
+        # x += 1
+#  example of using Ranges
+
+#list = [1, 2, 3 ]
+#for num in range(3,10):
+    #print(num)
+
+    
