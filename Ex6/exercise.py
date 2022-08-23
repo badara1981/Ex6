@@ -1,5 +1,7 @@
 #
 from re import I
+from subprocess import list2cmdline
+from xmlrpc.server import list_public_methods
 
 
 myList = [ 1, 2,3, 4, 5,6]
@@ -99,3 +101,20 @@ for key,value in d.items():
         x += 1
     else:
             print("X IS NOT LESS THAN 5")
+            
+            
+            # USING PASS
+            list_item = [ 2, 5, 8]
+            for list_item in list_item:
+             pass
+            print("my string in path")
+
+            # let start using the string as well 
+            mystring = "sammy"
+            for letter in mystring:
+                print(letter)
+                #
+                for letter in mystring:
+                    if letter == "a":
+                        continue
+                    print(letter)
