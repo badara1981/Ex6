@@ -2,7 +2,7 @@
 # Ex7  lowercase
 text = "The Quick BroWnFoX jumps over the laZy Dog! "
 text = text.lower() 
-text = (text)
+#text = (text)
 print(text)
 
 

@@ -33,3 +33,17 @@ def make_3sg_form():
             New_word=Word[:+4]+"inator 9000"
             print(New_word)
 make_3sg_form()
+# solution 2
+
+def make_3sg_form():
+    Word = input('Enter a word: ')
+    if Word.endswith('h'):
+        New_word=Word[:-1]+'ies'
+
+    elif Word.endswith(('o', 'ch', 's', 'sh', 'x' ,'z' 'eh')):
+        New_word=Word+'ies'
+
+    else:
+        New_word=Word+'s'
+    print(New_word)
+make_3sg_form()
