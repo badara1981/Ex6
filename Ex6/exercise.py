@@ -1,9 +1,4 @@
 #
-from re import I
-from subprocess import list2cmdline
-from xmlrpc.server import list_public_methods
-
-
 myList = [ 1, 2,3, 4, 5,6]
 for num in myList:
     print(num)
@@ -125,6 +120,7 @@ for key,value in d.items():
      #if x == 2:
         #break  
         
+        
         #print(x)
         
         # x += 1
@@ -133,5 +129,32 @@ for key,value in d.items():
 #list = [1, 2, 3 ]
 #for num in range(3,10):
     #print(num)
+#Ex
+list = [ 1, 2, 3]
+for num in range(0, 11, 2):
+    print(num)
+#
+x = "Mary"
+print(x[1])
+print(x[0:2])
+print(x[:3])
+print(x[1:2])
+print(x[1:])
+print(x[2:])
 
-    
+#  Create a Variable called City and print the name London on the screen
+
+city = "London"
+print(city)
+#
+city = "London"
+#
+city = input("Enter name of the city")
+print("You entered the word "  + city)
+
+# ex2
+
+
+
+
+
