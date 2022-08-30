@@ -51,3 +51,16 @@ anotherSplitString = """ This is the string
   line \
 """
 print(anotherSplitString)
+
+# variables  and types
+name = "Badara"
+greeting = "Hello"
+print(greeting + name)
+age = 24
+print(age)
+
+print(type(greeting))
+print(type(age))
+age = "2 year"
+print(age)
+print(type(age))
