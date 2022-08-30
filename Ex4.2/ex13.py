@@ -30,3 +30,24 @@ print(splitString)
 
 tabbedString = "1\t2, \t3, \t4,\t5"
 print(tabbedString)
+print('The shop owner say"No, no,    \'e\'t \'b resting".')
+print("The shop owner say \"Yes , yes, 's' uuh,...This is the end....")
+print("""THe  shop owner say no"then we have to do something" """)
+
+# Another Split String
+
+anotherSplitString = """ This is the string
+ split over
+ several
+  line
+"""
+print(anotherSplitString)
+
+#  another SplitString  \
+   
+anotherSplitString = """ This is the string
+ split over \
+ several \
+  line \
+"""
+print(anotherSplitString)
