@@ -64,3 +64,31 @@ print(type(age))
 age = "2 year"
 print(age)
 print(type(age))
+
+# Numeric Data types in   python
+
+# numeric
+# iterate
+# sequence ( which are also iterate)
+ #  mapping
+ # file
+ # class
+ # exception
+
+ # python3 has three numeric data type
+ #int 
+ # float 
+ #  complex
+
+# python  integer data are called int
+# integer are called whole number they have no fractional part/ numbers or remainder
+# float is  called real number  number having fractional part after the decimal point 
+
+a =  12
+b = 3
+print(a + b) # 15
+print(a - b) # 9
+print(a * b)  # 36
+print(a / b) # 4.0
+print(a // b) # 4 integer division round down towards minus  infinity
+print(a % b) # 0 modulo: the reminder after integer  divisions
