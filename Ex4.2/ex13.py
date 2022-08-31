@@ -1,5 +1,6 @@
 
-from random import shuffle 
+from random import shuffle
+from tokenize import Exponent 
 list  = [ 10, 20, 30, 40, 100]
 print(min(list))
 
@@ -112,3 +113,9 @@ c = a + b
 d = c / 3
 e  = d - 4
 print(e  * 12)
+
+# Operational precedence
+#PEMDAS, Parenthese, Exponents, Multiplication/Division Addition/subtraction
+# BEDMAS  Bracket Exponent Division Multiplication Addition Subtraction
+# BODMAS Bracket, Order, Division, Multiplication, Addition ,Subtraction
+# BIDMAS  Bracket, Index, Division, Multiplication, Addition/ Subtraction
