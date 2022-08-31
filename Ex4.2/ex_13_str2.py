@@ -1,5 +1,8 @@
 # 0123456789101234
 
+from cgi import print_environ
+
+
 parrot = "Norwegian parrot"
 print(parrot)
 print(parrot[3])
@@ -27,3 +30,13 @@ print(parrot[3-14])
 print(parrot[5-14])
 
 # Let talk  look at concept of  SLICING 
+
+parrot = "Norwegian  Blue"
+
+print(parrot[0:6]) # Norweg   Note in slicing you have to know that the last number for example 6 is always exclude from count
+print(parrot[1:8]) # 
+print(parrot[2:8])
+print(parrot[3:8])
+print(parrot[4:8])
+print(parrot[0:9])
+print(parrot[10:14])
