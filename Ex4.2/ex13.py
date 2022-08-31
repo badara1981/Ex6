@@ -1,5 +1,4 @@
 
-from posixpath import split
 from random import shuffle 
 list  = [ 10, 20, 30, 40, 100]
 print(min(list))
@@ -92,3 +91,18 @@ print(a * b)  # 36
 print(a / b) # 4.0
 print(a // b) # 4 integer division round down towards minus  infinity
 print(a % b) # 0 modulo: the reminder after integer  divisions
+
+
+#  sample of int
+
+for i in  range(1, 4):
+    print(i)
+
+    for i in range(1, a//b):
+        print(i)
+
+## OPeration precedences
+
+print(a + b / 3 -  4  * 12)
+print(a +  (b / 3) - (4 * 12))
+print(a + (b * 89) -(5 * 44))
