@@ -38,5 +38,17 @@ print(parrot[1:8]) #
 print(parrot[2:8])
 print(parrot[3:8])
 print(parrot[4:8])
-print(parrot[0:9])
+print(parrot[:9])
 print(parrot[10:14])
+print(parrot[10:])
+print(parrot[11:])
+print(parrot[6:])
+print(parrot[:6])
+print(parrot[:6]  + parrot[6:0])
+print(parrot[:])
+
+# string formatting  cubic
+
+for i in range (1, 13):
+    print("No. {0:2} squared is {1:4} and cube is{2:4}".format(i, i ** 2, i **3))
+    
