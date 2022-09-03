@@ -18,3 +18,5 @@ random_list = shuffle(myList)
 type(random_list)
     
 randint(0,100)
+mynum = randint(0, 10)
+mynum
