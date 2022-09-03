@@ -1,14 +1,14 @@
+from random import shuffle
+from random import randint
 
 list(range(0,11,2))
 print(list)
 
-## formating
+# formating in string
 index_count = 0
 for letter in 'abcde':
     print('At index{} the  letter is {}'.format(index_count,letter))
 index_count += 1
-
-
 #
 index_count = 0
 word = "abcde"
@@ -44,3 +44,9 @@ for item in zip(myList1, myList2,myList3):
 #
     'x' in ['x','y','z']
     print('x')
+
+    myList = [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    random_list = shuffle(myList)
+    type(random_list)
+    
+    randint(0,100)

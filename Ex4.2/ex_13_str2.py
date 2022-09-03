@@ -47,6 +47,7 @@ print(parrot[:6])
 print(parrot[:6]  + parrot[6:0])
 print(parrot[:])
 
+
 # string formatting  cubic
 
 for i in range (1, 13):
