@@ -13,6 +13,7 @@ print(int(result))
 # list comprehension are good alternatives
 # To do this let go to Jupiter NoteBook
 myList = []
+
 for letter in myList:
     myList.append(letter)
     print(myList)
